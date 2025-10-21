@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+          // MEDIA DAS NOTAS DO ALUNO //
 int quantidade = 0;
 Console.Write("Digite a quantidade de notas que deseja incluir: ");
 quantidade = int.Parse(Console.ReadLine());
@@ -18,5 +19,5 @@ double media = soma / quantidade;
 
 // Resultado
 Console.WriteLine("******************************** ");
-Console.WriteLine($"A média do aluno é {media:F2}. ");
+Console.WriteLine($"A média do aluno é {media:F1}. ");
 Console.WriteLine("******************************** ");
